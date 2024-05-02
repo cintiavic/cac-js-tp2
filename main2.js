@@ -40,3 +40,19 @@ document.write("<h3>Ejercicio 7: Siguiente, Doble y Cuadrado</h3>");
 document.write("<p>💙 El siguiente de " +  numero + " es: " + ej7(numero) + "</p>");
 document.write("<p>💚 El doble de " +  numero + " es: " + ej5(numero) + "</p>");
 document.write("<p>💛 El cuadrado de " +  numero + " es: " + ej6(numero) + "</p>");*/
+
+
+/* EJ 8
+let numero = parseFloat(prompt ("👋 Ejercicio 8: Ingrese un número y le calculo el siguiente del doble:"));
+document.write("<h3>Ejercicio 8: Siguiente del Doble</h3>");
+document.write("<p>💙 El siguiente del doble de " +  numero + " es: " + ej7(ej5(numero)) + "</p>");
+*/
+
+/* EJ 9 
+let numero = parseFloat(prompt ("👋 Ejercicio 9: Ingrese un número y le calculo el doble del siguiente al cuadrado"));
+document.write("<h3>Ejercicio 9: Doble del siguiente al cuadrado</h3>");
+document.write("<h4>Interpretación [2(x+1)]²</h4>");
+document.write("<p>💙 [2(" + numero + "+1)]²=" +  ej6(ej5(ej7(numero))) + "</p>");
+document.write("<h4>Interpretación 2(x+1)²</h4>");
+document.write("<p>💙 2(" + numero + "+1)²=" + ej5(ej6(ej7(numero))) + "</p>");*/
+

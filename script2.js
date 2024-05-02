@@ -39,3 +39,7 @@ function ej4 () {
 }
 
 let ej5 = n => 2*n;
+
+let ej6 = n => n*n;
+
+let ej7 = n => n+1;

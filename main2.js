@@ -21,3 +21,8 @@ document.write("El promedio entre " + n1 + ", " + n2 + ", " +  n3 + " es: " + ej
 
 /* EJ 4
 document.write("el promedio de notas es: " + ej4()); */
+
+/*EJ 5*/
+let numero = parseFloat(prompt ("Ejercicio 5: Ingrese un número y le calculo el doble: "));
+document.write("<h2>Ejercicio 5: Doble</h2>");
+document.write("<p>El doble de " +  numero + " es: " + ej5(numero) + "</p>");

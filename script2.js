@@ -38,5 +38,4 @@ function ej4 () {
     return (promedio);
 }
 
-
-
+let ej5 = n => 2*n;

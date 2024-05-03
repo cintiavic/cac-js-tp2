@@ -56,3 +56,4 @@ document.write("<p>💙 [2(" + numero + "+1)]²=" +  ej6(ej5(ej7(numero))) + "</
 document.write("<h4>Interpretación 2(x+1)²</h4>");
 document.write("<p>💙 2(" + numero + "+1)²=" + ej5(ej6(ej7(numero))) + "</p>");*/
 
+ 

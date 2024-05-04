@@ -45,4 +45,6 @@ let ej6 = n => n*n;
 let ej7 = n => n+1;
 
 // El ejercicio 8 no lleva función
+// El ejercicio 9 tampoco
 
+let ej10 = n => n*4;

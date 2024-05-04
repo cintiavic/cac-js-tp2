@@ -56,4 +56,8 @@ document.write("<p>💙 [2(" + numero + "+1)]²=" +  ej6(ej5(ej7(numero))) + "</
 document.write("<h4>Interpretación 2(x+1)²</h4>");
 document.write("<p>💙 2(" + numero + "+1)²=" + ej5(ej6(ej7(numero))) + "</p>");*/
 
- 
+ /* EJ 10
+ let numero = parseFloat(prompt ("👋 Ejercicio 10: Ingrese la longitud del lado de un cuadrado y le calculo el perímetro:"));
+ document.write("<h3>Ejercicio 10: Perímetro de un cuadrado</h3>");
+ document.write("<h4>El perímetro de un 🟥 de lado " + numero + " es: " + ej10(numero) +" </h4>"); 
+ */

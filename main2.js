@@ -61,3 +61,52 @@ document.write("<p>💙 2(" + numero + "+1)²=" + ej5(ej6(ej7(numero))) + "</p>"
  document.write("<h3>Ejercicio 10: Perímetro de un cuadrado</h3>");
  document.write("<h4>El perímetro de un 🟥 de lado " + numero + " es: " + ej10(numero) +" </h4>"); 
  */
+
+  /* EJ 11 
+ let numero = parseFloat(prompt ("👋 Ejercicio 11: Ingrese la longitud del lado de un cuadrado y le calculo el área:"));
+ document.write("<h3>Ejercicio 11: Área de un cuadrado</h3>");
+ document.write("<h4>El área de un 🟥 de lado " + numero + " es: " + ej6(numero) +" </h4>"); 
+*/
+
+ /* EJ 12 
+ let radio = parseFloat(prompt ("👋 Ejercicio 12: Ingrese el radio de un círculo y le calculo el perímetro:"));
+ document.write("<h3>Ejercicio 12: Perímetro de un círculo</h3>");
+ document.write("<h4>El perímetro de un 🟠 de radio " + radio + " es: " + ej12(radio) +" </h4>"); 
+*/
+
+ /* EJ 13
+ let radio = parseFloat(prompt ("👋 Ejercicio 13: Ingrese el radio de un círculo y le calculo el área:"));
+ document.write("<h3>Ejercicio 13: Área de un círculo</h3>");
+ document.write("<h4>El área de un 🟠 de radio " + radio + " es: " + ej13(radio) +" </h4>"); 
+
+ /* EJ 14 
+ let mes;
+ let salir = false;
+ do {
+    mes = parseInt (prompt ("👋 Ejercicio 14: Ingrese un número de mes y le digo cuántos días tiene:"));
+    if ((mes < 1) || (mes > 12)) {
+        window.alert("Ese mes no existe, vuelva a intentar");
+    }
+    else{
+        salir = true;
+    }
+} while (!salir);
+
+ document.write("<h3>Ejercicio 14: Días de un mes </h3>");
+ document.write("<h4>📅 El mes " + mes + " tiene " + ej14(mes) +" días</h4>"); 
+*/
+
+/* EJ 15
+//Un año es bisiesto si es divisible por 4 y no por 100, salvo que sea divisible por 400
+let anio = parseInt (prompt ("👋 Ejercicio 15: Ingrese un año y le cuento si es bisiesto:"))
+document.write("<h3>Ejercicio 15: Año bisiesto </h3>");
+
+if (bisiesto(anio)) {
+     document.write("<h4>📅 El año " + anio + " es bisiesto</h4>"); 
+}
+else {
+    document.write("<h4>📅 El año " + anio + " no es bisiesto</h4>"); 
+}
+*/
+
+/* EJ 16 */

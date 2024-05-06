@@ -48,3 +48,28 @@ let ej7 = n => n+1;
 // El ejercicio 9 tampoco
 
 let ej10 = n => n*4;
+
+// El ejercicio 11 no lleva función
+
+let ej12 = r => 2 * r * Math.PI;
+
+let ej13 = r => Math.PI * ej6(r);
+
+function ej14 (m) {
+    //calcula cantidad de dias del mes m
+    if ((m==1) || (m==3) || (m==5) || (m==7) || (m==8) || (m==10) || (m==12)) {
+        return 31;
+    } else if (m == 2) {
+        return 28;
+    } else {
+        return 30;
+    }
+    
+}
+
+// función auxiliar Divisible
+// retorna si X es divisible por Y
+
+let divisible = (x,y) => x % y == 0;
+
+let bisiesto = (a) => ( (divisible(a,4)) && (!divisible(a,100)) ) || (divisible(a,400));
